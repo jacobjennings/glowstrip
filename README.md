@@ -19,3 +19,23 @@ Cut LED strip to desired length, this design is modular and can work with any mu
 
 
 STLs are provided, and a Fusion 360 file is provided as well. The design is fully parameterized if you would like to modify the angle, etc.
+
+
+100% scale is a tight snap fit for the diffuser. Print diffuser at 99.7% scale for a sliding fit. 
+
+
+The most typical configuration for a 200mm LED strip clipping would use:
+endCapWithSegment
+endCapMirrorWithSegment
+endCapDiffuser * 2
+diffuser * 2
+
+
+STL files have the parts in ideal printing orientation. Don't bother clipping the supports perfectly neat, you will use foam tape on that surface. Suggest zigzag supports at 20%.
+
+
+Suggest 1/2in foam mounting tape for a temporary but secure mount to desk:
+https://www.amazon.com/Tatuo-Double-Sponge-Mounting-Adhesive/dp/B07DWX1NN9
+
+
+Assemble with superglue or hot glue
